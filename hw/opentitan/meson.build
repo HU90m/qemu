@@ -29,6 +29,7 @@ softmmu_ss.add(when: 'CONFIG_OT_ROM_CTRL', if_true: files('ot_rom_ctrl.c', 'ot_r
 softmmu_ss.add(when: 'CONFIG_OT_RSTMGR', if_true: files('ot_rstmgr.c'))
 softmmu_ss.add(when: 'CONFIG_OT_SENSOR', if_true: files('ot_sensor.c'))
 softmmu_ss.add(when: 'CONFIG_OT_SPI_HOST', if_true: files('ot_spi_host.c'))
+softmmu_ss.add(when: 'CONFIG_OT_SPI_DEVICE', if_true: files('ot_spi_device.c'))
 softmmu_ss.add(when: 'CONFIG_OT_SRAM_CTRL', if_true: files('ot_sram_ctrl.c'))
 softmmu_ss.add(when: 'CONFIG_OT_TIMER', if_true: files('ot_timer.c'))
 softmmu_ss.add(when: 'CONFIG_OT_UART', if_true: files('ot_uart.c'))

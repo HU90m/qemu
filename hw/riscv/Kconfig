@@ -35,6 +35,7 @@ config OT_EARLGREY
     select OT_RSTMGR
     select OT_SENSOR
     select OT_SPI_HOST
+    select OT_SPI_DEVICE
     select OT_SRAM_CTRL
     select OT_TIMER
     select OT_UART
