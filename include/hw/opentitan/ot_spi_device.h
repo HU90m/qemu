@@ -1,5 +1,5 @@
 /*
- * QEMU OpenTitan SPI Device controller
+ * QEMU OpenTitan SPI Device
  *
  * Copyright (c) 2023 lowRISC CIC
  *
@@ -28,10 +28,10 @@
 #ifndef HW_OPENTITAN_OT_SPI_DEVICE_H
 #define HW_OPENTITAN_OT_SPI_DEVICE_H
 
-//#include "qom/object.h"
-//#include "hw/sysbus.h"
+#include "qom/object.h"
+#include "hw/sysbus.h"
 
-//#define TYPE_OT_SPI_DEVICE "ot-spi_device"
-//OBJECT_DECLARE_TYPE(OtSPIDeviceState, OtSPIDeviceClass, OT_SPI_DEVICE)
+#define TYPE_OT_SPI_DEVICE "ot-spi_device"
+OBJECT_DECLARE_TYPE(OtSPIDeviceState, OtSPIDeviceClass, OT_SPI_DEVICE)
 
 #endif /* HW_OPENTITAN_OT_SPI_DEVICE_H */
